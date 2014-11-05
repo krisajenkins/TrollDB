@@ -80,8 +80,10 @@ Production-ready, if performance is your only concern.
 
 ** Credits
 
-Thanks to [[https://github.com/honza][Honza Pokorny]] for adding NodeJS support, and [[http://lokijs.org/#/][LokkiJS]] for the
-inspiration.
+Thanks to...
+
+- [[http://lokijs.org/#/][LokiJS]] for the initial inspiration.
+- [[https://github.com/honza][Honza Pokorny]] for adding NodeJS support.
 
 ** License
 
