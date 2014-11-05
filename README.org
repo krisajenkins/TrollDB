@@ -38,7 +38,7 @@ TrollDB will optimize this query for performance.
 You can update data with pattern matching.
 
 #+BEGIN_SRC javascript
-db.update({"balance": undefined});
+db.update({"balance": undefined}, {"balance": 54321});
 #+END_SRC
 
 TrollDB will optimize this update for performance.
