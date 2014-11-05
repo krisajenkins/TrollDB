@@ -1,8 +1,9 @@
 * TrollDB
 
 TrollDB is an in-memory JavaScript database which prioritises
-performance over everything. It is blazingly fast. You *will not* find
-a faster in-memory JavaScript Database. Stop looking. You've arrived.
+performance over *everything*. It is blazingly fast. You *will not*
+find a faster in-memory JavaScript Database, so stop looking. You've
+arrived.
 
 ** Usage
 
@@ -31,6 +32,26 @@ db.query({"balance": undefined});
 #+END_SRC
 
 TrollDB will optimize this query for performance.
+
+*** Update
+
+You can update data with pattern matching.
+
+#+BEGIN_SRC javascript
+db.update({"balance": undefined});
+#+END_SRC
+
+TrollDB will optimize this update for performance.
+
+*** Delete
+
+You can delete data with pattern matching.
+
+#+BEGIN_SRC javascript
+db.delete({"balance": undefined});
+#+END_SRC
+
+TrollDB will optimize this delete for performance.
 
 ** Bugs
 
