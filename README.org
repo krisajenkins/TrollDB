@@ -61,3 +61,14 @@ only bugs that affect performance will be considered bugs.
 ** Status
 
 Production-ready, if performance is your only concern.
+
+** Credits
+
+Thanks to [[https://github.com/honza][Honza Pokorny]] for adding NodeJS support, and [[http://lokijs.org/#/][LokkiJS]] for the
+inspiration.
+
+** License
+
+Copyright © 2014 Kris Jenkins
+
+Distributed under the Eclipse Public License.
