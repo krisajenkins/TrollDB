@@ -5,7 +5,7 @@ performance over *everything*. It is blazingly fast. You *will not*
 find a faster in-memory JavaScript Database, so stop looking. You've
 arrived.
 
-** Usage
+** Basic Usage
 
 First require the trolldb script:
 
@@ -52,6 +52,22 @@ db.delete({"balance": undefined});
 #+END_SRC
 
 TrollDB will optimize this delete for performance.
+
+** Advanced Usage
+
+*** Clustering
+
+TrollDB features powerful Clustering support that beats the CAP
+theorum. To connect to a cluster:
+
+#+BEGIN_SRC javascript
+db.connectToCluster();
+#+END_SRC
+
+TrollDB will seek out and connect to other nodes on the network in a
+way that is optimized for performance. Should a node go down, when it
+comes back up it will be re-synced with the rest of the cluster in a
+way that is optimized for performance.
 
 ** Bugs
 
