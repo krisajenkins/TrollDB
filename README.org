@@ -75,7 +75,7 @@ way that is optimized for performance.
 
 TrollDB can translate queries expressed in industry standard SQL to
 perfectly optimal TrollDB queries *on the fly* The TrollDB translator
-will parse SQL faster than your legacy relational database*
+will parse SQL *faster than your legacy relational database*
 
 Usage: express your SQL statement as a string
 
