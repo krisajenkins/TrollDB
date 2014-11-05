@@ -4,3 +4,7 @@ var db = {
 	"update": function () {},
 	"delete": function () {}
 };
+
+if (module !== undefined) {
+  module.exports = db;
+}
