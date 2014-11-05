@@ -71,6 +71,16 @@ way that is optimized for performance. Should a node go down, when it
 comes back up it will be re-synced with the rest of the cluster in a
 way that is optimized for performance.
 
+*** SQL API
+
+TrollDB can translate queries expressed in industry standard SQL to
+perfectly optimal TrollDB queries *on the fly* The TrollDB translator
+will parse SQL *faster than your legacy relational database*.
+
+#+BEGIN_SRC javascript
+db.executeSQL('DROP table Students;');
+#+END_SRC
+
 ** Bugs
 
 Please report any bugs in the Github Issue tracker. Please note that
