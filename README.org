@@ -3,7 +3,7 @@
 TrollDB is an in-memory JavaScript database which prioritises
 performance over *everything*. It is blazingly fast. You *will not*
 find a faster in-memory JavaScript Database, so stop looking. You've
-arrived.
+arrived dude.
 
 ** Basic Usage
 
