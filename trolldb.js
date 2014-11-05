@@ -3,7 +3,8 @@ var db = {
 	"insert": function () {},
 	"update": function () {},
 	"delete": function () {},
-	"connectToCluster": function () {}
+	"connectToCluster": function () {},
+        "executeSQL" : function () {}
 };
 
 if (module !== undefined) {
