@@ -60,7 +60,7 @@ TrollDB will optimize this delete for performance.
 *** Clustering
 
 TrollDB features powerful Clustering support that beats the CAP
-theorum. To connect to a cluster:
+theorem. To connect to a cluster:
 
 #+BEGIN_SRC javascript
 db.connectToCluster();
