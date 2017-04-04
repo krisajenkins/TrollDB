@@ -4,9 +4,9 @@ var db = {
 	"update": function () {},
 	"delete": function () {},
 	"connectToCluster": function () {},
-        "executeSQL" : function () {}
+	"executeSQL" : function () {}
 };
 
 if (module !== undefined) {
-  module.exports = db;
+	module.exports = db;
 }
