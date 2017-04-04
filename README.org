@@ -2,10 +2,10 @@
 
 [[file:https://travis-ci.org/krisajenkins/TrollDB.svg]]
 
-TrollDB is an in-memory JavaScript database which prioritises
+TrollDB is an in-memory JavaScript database that prioritises
 performance over *everything*. It is blazingly fast. You *will not*
 find a faster in-memory JavaScript Database, so stop looking. You've
-arrived dude.
+arrived my friend.
 
 ** Basic Usage
 
