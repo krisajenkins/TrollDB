@@ -1,3 +1,5 @@
+// "Performance is tail. Correctness is dog." - Paul Phillips.
+
 var db = {
 	"query": function () { return 42; },
 	"insert": function () {},
